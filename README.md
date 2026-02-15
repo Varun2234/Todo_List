@@ -8,7 +8,6 @@
 
 > A sleek, drag-and-drop task management board built with React, Zustand, and modern web technologies. Features glassmorphism UI, real-time activity logging, and persistent state management.
 
-![TaskFlow Screenshot](https://via.placeholder.com/800x400/0f172a/38bdf8?text=TaskFlow+Preview)
 
 ## 🚀 Live Demo
 
