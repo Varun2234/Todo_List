@@ -1,16 +1,70 @@
-# React + Vite
+# ✨ TaskFlow — Modern Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)](https://vitejs.dev/)
+[![Zustand](https://img.shields.io/badge/Zustand-4-FF9F43?logo=react)](https://github.com/pmndrs/zustand)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![Render](https://img.shields.io/badge/Deployed_on-Render-46E3B7?logo=render)](https://render.com)
 
-Currently, two official plugins are available:
+> A sleek, drag-and-drop task management board built with React, Zustand, and modern web technologies. Features glassmorphism UI, real-time activity logging, and persistent state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![TaskFlow Screenshot](https://via.placeholder.com/800x400/0f172a/38bdf8?text=TaskFlow+Preview)
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[https://todo-list-ghpn.onrender.com](https://todo-list-ghpn.onrender.com)**
 
-## Expanding the ESLint configuration
+**Demo Credentials:**
+- Email: `intern@demo.com`
+- Password: `intern123`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔐 **Secure Auth** | Static login with "Remember Me" functionality |
+| 🎨 **Glassmorphism UI** | Modern frosted-glass design with gradient accents |
+| 🏗️ **Drag & Drop** | Smooth task reordering across columns |
+| 💾 **Persistent State** | LocalStorage + Zustand for data persistence |
+| 🔍 **Smart Search** | Real-time filtering by title and priority |
+| 📊 **Activity Log** | Track all task movements and changes |
+| 📱 **Responsive** | Works seamlessly on all devices |
+| ⚡ **Fast Performance** | Vite-powered development and builds |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 18 + Vite 5
+- **State Management:** Zustand (with persistence middleware)
+- **Styling:** Tailwind CSS + Custom Glassmorphism
+- **Drag & Drop:** @dnd-kit (modern, accessible)
+- **Routing:** React Router v6
+- **Icons:** Lucide React
+- **Date Handling:** date-fns
+- **Testing:** Vitest + React Testing Library
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Clone & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Varun2234/Todo_List.git
+
+# Navigate to project
+cd task-board
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
