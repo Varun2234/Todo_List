@@ -3,7 +3,7 @@ services:
     name: task-board
     staticPublishPath: ./dist
     routes:
-      - path: /
-        destination: /index.html
+      - path: /assets/*
+        destination: /assets/$1
       - path: /*
         destination: /index.html
