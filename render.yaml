@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: task-board
+    staticPublishPath: ./dist
+    routes:
+      - path: /
+        destination: /index.html
+      - path: /*
+        destination: /index.html
